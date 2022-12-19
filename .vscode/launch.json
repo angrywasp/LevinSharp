@@ -5,15 +5,20 @@
             "name": "Test",
             "type": "coreclr",
             "request": "launch",
-            "program": "${workspaceFolder}/Bin/Binaries/LevinSharp.NetCrawler.exe",
+            "windows": {
+                "program": "${workspaceRoot}/Bin/Binaries/LevinSharp.NetCrawler.exe",
+            },
+            "osx": {
+                "program": "${workspaceRoot}/Bin/Binaries/LevinSharp.NetCrawler",
+            },
+            "linux": {
+                "program": "${workspaceRoot}/Bin/Binaries/LevinSharp.NetCrawler",
+            },
             "cwd": "${workspaceRoot}",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "preLaunchTask": "build-debug",
-            "args": [
-                "--version", "0.18.1.2",
-                "--host", "78.106.12.87"
-            ]
+            "args": []
         },
     ]
 }
