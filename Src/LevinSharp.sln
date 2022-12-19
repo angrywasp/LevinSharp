@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevinSharp", "LevinSharp\LevinSharp.csproj", "{6F8B2E1F-511E-4B1E-B87B-D28F1391D364}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LevinSharp.NetCrawler", "LevinSharp.NetCrawler\LevinSharp.NetCrawler.csproj", "{3F8680BA-6D33-44C7-9B71-5B516F1BF93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F8B2E1F-511E-4B1E-B87B-D28F1391D364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8B2E1F-511E-4B1E-B87B-D28F1391D364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8B2E1F-511E-4B1E-B87B-D28F1391D364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8B2E1F-511E-4B1E-B87B-D28F1391D364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8680BA-6D33-44C7-9B71-5B516F1BF93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8680BA-6D33-44C7-9B71-5B516F1BF93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8680BA-6D33-44C7-9B71-5B516F1BF93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8680BA-6D33-44C7-9B71-5B516F1BF93C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-debug",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "-c",
+                "Debug",
+                "${workspaceRoot}/Src/LevinSharp.sln"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

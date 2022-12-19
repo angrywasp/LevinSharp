@@ -1,0 +1,29 @@
+{
+    "files.exclude": {
+        "**/*.csproj.user": true,
+        "**/*.userprefs": true,
+        "**/packages": true,
+        "**/*.tar.xz": true,
+        "**/obj": true,
+    },
+    "omnisharp.projectLoadTimeout": 360,
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "terminal.integrated.env.windows": {
+        "CHERE_INVOKING": "1" ,
+        "MSYSTEM": "MINGW64"
+    },
+    "terminal.integrated.profiles.windows": {
+        "MYSYS": {
+            "path": "C:\\msys64\\usr\\bin\\zsh.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    //"terminal.integrated.defaultProfile.windows": "MYSYS"
+}   

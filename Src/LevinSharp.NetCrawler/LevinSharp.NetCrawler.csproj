@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../External/AngryWasp.Tools.MonoRepo/AngryWasp.Build/AngryWasp.Build.Application.targets"/>
+    <ItemGroup>
+        <ProjectReference Include="../LevinSharp/LevinSharp.csproj"/>
+        <ProjectReference Include="../../External/AngryWasp.Tools.MonoRepo/AngryWasp.Cli/AngryWasp.Cli.csproj"/>
+    </ItemGroup>
+</Project>
