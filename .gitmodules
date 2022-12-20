@@ -1,0 +1,3 @@
+[submodule "External/AngryWasp.Build"]
+	path = External/AngryWasp.Build
+	url = https://github.com/angrywasp/AngryWasp.Build

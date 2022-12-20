@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
-    <Import Project="../../External/AngryWasp.Tools.MonoRepo/AngryWasp.Build/AngryWasp.Build.Library.targets"/>
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets"/>
     <ItemGroup>
-        <ProjectReference Include="../../External/AngryWasp.Tools.MonoRepo/AngryWasp.Logger/AngryWasp.Logger.csproj"/>
-        <ProjectReference Include="../../External/AngryWasp.Tools.MonoRepo/AngryWasp.Helpers/AngryWasp.Helpers.csproj"/>
+        <PackageReference Include="AngryWasp.Helpers" Version="*"/>
+        <PackageReference Include="AngryWasp.Logger" Version="*"/>
     </ItemGroup>
 </Project>
