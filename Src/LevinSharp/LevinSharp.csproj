@@ -1,5 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets"/>
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Pack.targets"/>
+    <Import Project="../Nuget.Common.targets"/>
+    <PropertyGroup>
+        <PackageId>AngryWasp.LevinSharp</PackageId>
+        <PackageDescription>C# implementation of the Monero Levin protocol</PackageDescription>
+    </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="AngryWasp.Helpers" Version="*"/>
         <PackageReference Include="AngryWasp.Logger" Version="*"/>

@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <RepositoryUrl>https://github.com/angrywasp/LevinSharp</RepositoryUrl>
+        <Author>Angry Wasp</Author>
+    </PropertyGroup>
+</Project>
